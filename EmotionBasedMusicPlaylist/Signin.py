@@ -10,7 +10,8 @@ def change(root):
     Signup.Call(root)
 
 def change_case(event=None):
-    a="nothong"
+    messagebox.showerror("Error", "Enter Valid Data")
+
 
 def login(root, username, password):
     name=username.get()
